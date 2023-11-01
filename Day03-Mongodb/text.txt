@@ -1,0 +1,66 @@
+db.collection.find()
+
+
+db.collection.find({
+  name: "Iron man 2"
+})
+
+//SELECT * from collection WHERE name="Iron man 2"
+
+
+db.collection.find({
+  rating: 8
+})
+
+db.collection.find({
+  rating: {
+    "$gt": 8
+  }
+})
+
+db.collection.find({
+  rating: {
+    "$gte": 8
+  }
+})
+
+db.collection.find({
+  rating: {
+    "$lt": 8
+  }
+})
+db.collection.find({
+  rating: {
+    "$lte": 8
+  }
+})
+
+
+//8.6, 7,8,8.1
+db.collection.find({
+  rating: {
+    "$in": [
+      8.6,
+      7,
+      8,
+      8.1
+    ]
+  }
+})
+
+db.collection.find({
+  rating: {
+    "$nin": [
+      8.6,
+      7,
+      8,
+      8.1
+    ]
+  }
+},
+{
+  name: 1,
+  _id: 0
+})
+
+
