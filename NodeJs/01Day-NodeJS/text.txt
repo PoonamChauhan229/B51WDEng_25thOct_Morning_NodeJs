@@ -1,0 +1,45 @@
+MERN STACK
+
+M: MONGODB
+E: EXPRESS 
+R: REACT
+N: NODE
+
+set of technologies used for web app.
+
+Client:REACT
+Server:EXPRESS
+
+Popular Stacks:
+MERN: MONGODB EXPRESS REACT NODE
+MEAN: MONGODB EXPRESS ANGULAR NODE
+MEVN: MONGODB EXPRESS Vue NODE
+LAMP: LINUX APACHE MYSQL PHP
+
+
+NODEJS:
+Download: https://nodejs.org/en
+
+node version
+
+> node -v
+
+NODE : NODE is a way to run the JS code on the server.
+NODE JS is a javscript runtime built on Chrome V8 JS Engine.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
