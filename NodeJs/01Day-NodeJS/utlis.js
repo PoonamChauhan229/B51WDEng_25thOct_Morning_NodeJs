@@ -9,3 +9,6 @@ const add=function(a,b){
 }
 
 module.exports={name,lname,add}
+
+// module.exports=add
+

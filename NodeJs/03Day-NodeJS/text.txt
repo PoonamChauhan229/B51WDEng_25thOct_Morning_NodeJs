@@ -1,0 +1,17 @@
+EXPRESS
+create web server 
+with node these serve going to allow to serve up 
+
+First step:
+We have to initialize the project
+npm init -y
+>pakage.json
+
+start installing the packages
+>node_modules
+>package-lock.json
+
+create an .gitignore
+
+create a file
+> app.js/index.js/server.js
