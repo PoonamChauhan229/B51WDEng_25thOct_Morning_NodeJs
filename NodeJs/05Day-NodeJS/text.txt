@@ -1,0 +1,5 @@
+updating the scripts
+nodemon
+
+authentication
+
