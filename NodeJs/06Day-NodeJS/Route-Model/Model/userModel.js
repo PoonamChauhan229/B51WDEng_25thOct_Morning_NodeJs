@@ -61,5 +61,7 @@ userSchema.virtual('taskRel',{
     localField:'_id',//user id/ object id of user,
     foreignField:'owner'
 })
+
+//virtual('movieRel')
 const User=mongoose.model('User',userSchema)
 module.exports=User
